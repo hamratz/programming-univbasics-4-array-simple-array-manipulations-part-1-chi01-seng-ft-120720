@@ -12,23 +12,7 @@ def using_pop(array)
   array.pop
 end
 
-=begin
-  4) using_pop takes in argument of an array and uses the pop method to remove the last element from the array and return that element
-     Failure/Error: @deleted_string = using_pop(@continents)
-
-     NoMethodError:
-       undefined method `using_pop' for #<RSpec::ExampleGroups::UsingPop:0x0000000002ac23b0>
-     # ./spec/intro_to_simple_array_manipulations_spec.rb:32:in `block (2 levels) in <top (required)>'
-=end
-
-=begin
-  5) using_pop decreases the length of the array by 1
-     Failure/Error: @deleted_string = using_pop(@continents)
-
-     NoMethodError:
-       undefined method `using_pop' for #<RSpec::ExampleGroups::UsingPop:0x0000000002ac10a0>
-     # ./spec/intro_to_simple_array_manipulations_spec.rb:32:in `block (2 levels) in <top (required)>'
-=end
+def pop_with_args(array)
 
 =begin
   6) pop_with_args takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them
