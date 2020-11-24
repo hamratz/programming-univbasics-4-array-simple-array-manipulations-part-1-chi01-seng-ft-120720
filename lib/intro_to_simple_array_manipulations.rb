@@ -16,26 +16,9 @@ def pop_with_args(array)
   array.pop(2)
 end
 
-
-
-
-=begin
-  6) pop_with_args takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them
-     Failure/Error: @small_dogs = pop_with_args(@dog_breeds)
-
-     NoMethodError:
-       undefined method `pop_with_args' for #<RSpec::ExampleGroups::PopWithArgs:0x0000000002ada5a0>
-     # ./spec/intro_to_simple_array_manipulations_spec.rb:46:in `block (2 levels) in <top (required)>'
-=end
-
-=begin
-  7) pop_with_args decreases the length of the array by 2
-     Failure/Error: @small_dogs = pop_with_args(@dog_breeds)
-
-     NoMethodError:
-       undefined method `pop_with_args' for #<RSpec::ExampleGroups::PopWithArgs:0x0000000002ad90b0>
-     # ./spec/intro_to_simple_array_manipulations_spec.rb:46:in `block (2 levels) in <top (required)>'
-=end
+def using_shift(array)
+  array.shift
+end
   
 =begin
   8) using_shift takes in an argument of an array and uses the shift method to remove the first item and return it
