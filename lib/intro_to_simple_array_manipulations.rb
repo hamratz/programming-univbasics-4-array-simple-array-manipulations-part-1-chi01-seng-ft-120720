@@ -13,7 +13,7 @@ end
      # ./spec/intro_to_simple_array_manipulations_spec.rb:17:in `block (2 levels) in <top (required)>'
 =end
 
-def using_upshift(array, string)
+def using_unshift(array, string)
   array.unshift(string)
 end
 
