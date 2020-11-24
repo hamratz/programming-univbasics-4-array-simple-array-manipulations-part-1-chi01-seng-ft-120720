@@ -1,12 +1,3 @@
-=begin Failures:
-
-  1) using_push takes in two arguments, an array and a string and adds that string to the end of the array using the push method
-     Failure/Error: updated_array = using_push(colors_in_the_rainbow, next_color)
-
-     NoMethodError:
-       undefined method `using_push' for #<RSpec::ExampleGroups::UsingPush:0x0000000002abbfb0>
-     # ./spec/intro_to_simple_array_manipulations_spec.rb:8:in `block (2 levels) in <top (required)>'
-=end
 
 def using_push(array, string)
   array.push(string)
@@ -22,7 +13,8 @@ end
      # ./spec/intro_to_simple_array_manipulations_spec.rb:17:in `block (2 levels) in <top (required)>'
 =end
 
-
+def using_upshift(array)
+  array.upshift
 
 
 =begin
