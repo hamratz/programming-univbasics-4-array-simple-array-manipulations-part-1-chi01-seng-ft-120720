@@ -14,7 +14,7 @@ end
 =end
 
 def using_upshift(array, string)
-  array.unshift("string")
+  array.unshift(string)
 end
 
 =begin
