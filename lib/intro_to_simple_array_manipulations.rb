@@ -8,7 +8,7 @@
      # ./spec/intro_to_simple_array_manipulations_spec.rb:8:in `block (2 levels) in <top (required)>'
 =end
 
-def using_push(arry, string)
+def using_push(array, string)
   array.push(string)
 end
 
