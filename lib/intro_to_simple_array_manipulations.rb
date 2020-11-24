@@ -9,10 +9,15 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  array = array.pop
+  array.pop
 end
 
 def pop_with_args(array)
+  array = array.pop
+end
+
+
+
 
 =begin
   6) pop_with_args takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them
