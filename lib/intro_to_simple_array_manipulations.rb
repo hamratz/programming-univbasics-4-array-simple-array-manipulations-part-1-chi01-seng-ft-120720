@@ -4,27 +4,10 @@ def using_push(array, string)
 end
 
 
-=begin
-  2) using_unshift takes in two arguments, an array and a string and adds that string to the front of the array using the unshift method
-     Failure/Error: @updated_array = using_unshift(bouroughs_in_nyc, @new_neighborhood)
-
-     NoMethodError:
-       undefined method `using_unshift' for #<RSpec::ExampleGroups::UsingUnshift:0x0000000002ab9530>
-     # ./spec/intro_to_simple_array_manipulations_spec.rb:17:in `block (2 levels) in <top (required)>'
-=end
-
 def using_unshift(array, string)
   array.unshift(string)
 end
 
-=begin
-  3) using_unshift increases the length of the array
-     Failure/Error: @updated_array = using_unshift(bouroughs_in_nyc, @new_neighborhood)
-
-     NoMethodError:
-       undefined method `using_unshift' for #<RSpec::ExampleGroups::UsingUnshift:0x0000000002ab81d0>
-     # ./spec/intro_to_simple_array_manipulations_spec.rb:17:in `block (2 levels) in <top (required)>'
-=end
 
 =begin
   4) using_pop takes in argument of an array and uses the pop method to remove the last element from the array and return that element
